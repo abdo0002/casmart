@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- Copyright - 2023 -->
+<html lang="en">
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title>casmart | Profile</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/x-icon">
+  <!-- Style -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Icons -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body> 
+
+    <article class="profile-1">
+      <div class="profile-2">
+        <img src="./assets/images/user.png" alt="profile" width="180">
+        <div class="profile-3">
+          <p>id : <span><%= id %></span></p>
+          <p><%= name %></p>
+        </div>
+        <span class="profile-4">
+          <span>
+            <ion-icon name="calendar-outline"></ion-icon>
+            Joined <%= date %>
+          </span>
+          <a href="/logout" class="profile-5">
+            <ion-icon name="exit-outline"></ion-icon>
+          </a>
+        </span>
+        
+      </div>
+    </article>
+  
+</body>
+</html>

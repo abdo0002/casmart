@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- Copyright - 2023 -->
+<html lang="en">
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title>casmart | Add product</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/x-icon">
+  <!-- Style -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Icons -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <!-- Script -->
+  <script src="./assets/js/add.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body style="padding:0"> 
+
+  <div class="add-1">
+    <article class="add-2">
+
+      <div class="add-3">
+        <div class="add-4">
+          <input type="file" accept="image/*" hidden>
+          <img src="https://www.codingnepalweb.com/demos/resize-and-compress-image-javascript/upload-icon.svg" alt="">
+          <p>Product picture</p>
+        </div>
+      </div>
+
+      <div class="add-5">
+        <input type="text" id="1in" placeholder="  Enter product name">
+        <input type="number" id="2in" placeholder="  Enter product price (dh)">
+        <input type="number" id="3in" placeholder="  Enter delivery fees (dh)">
+        <input type="number" id="4in" placeholder="  Enter your Whatsapp number">
+        <textarea cols="30" id="5in" rows="10" placeholder="  Enter product description"></textarea>
+      </div>
+
+      <div class="add-6">
+        <div class="add-7">
+          <ion-icon name="eye-outline"></ion-icon>
+          <input id="6in" class="add-8" type="range" min="0" step="1000" max="10000" value="0"/>
+          <span>0</span>
+        </div>
+      </div>
+
+      <div class="add-9">
+        <span>Total: <p id="total">0</p> &dollar;</span>
+      </div>
+
+      <button class="add-x">
+        Confirm
+      </button>
+
+    </article>
+  </div>
+
+  <script>
+    const ttttttytsywstys = '<%= balance %>';
+  </script>
+
+</body>
+</html>
