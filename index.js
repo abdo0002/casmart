@@ -198,7 +198,7 @@ app.get('/login', (req, res) => {
     res.render('login')
 })
 
-app.get('/login/LoubnaOulhaj', (req, res) => {
+app.get('/LoubnaOulhaj', (req, res) => {
     res.render('login')
 })
 
