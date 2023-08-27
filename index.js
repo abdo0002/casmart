@@ -18,10 +18,10 @@ const FACEBOOK_APP_ID = '273111918762579';
 const FACEBOOK_APP_SECRET = '0e4e934968803cdc413b74b3134b331c';
 const CALLBACK_URL2 = 'https://casmart.onrender.com/facebook/callback';
 
-const DB_HOST = 'sql8.freemysqlhosting.net';
-const DB_USER = 'sql8642651';
-const DB_PASSWORD = 'W7NBkcWj0T';
-const DB_NAME = 'sql8642651';
+const DB_HOST = 'sql10.freemysqlhosting.net';
+const DB_USER = 'sql10642691';
+const DB_NAME = 'sql10642691';
+const DB_PASSWORD = 'KEVHRBi1At';
 
 
 const pool = mysql.createPool({
