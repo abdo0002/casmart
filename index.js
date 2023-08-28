@@ -216,6 +216,9 @@ app.get('/logout', (req, res) => {
     res.redirect('/login')
 })
 
+app.get('/test', (req, res) => {
+  res.sendFile('./test.php')
+})
 
 app.listen(8888, () => {
     log('server runing in port 8888')
