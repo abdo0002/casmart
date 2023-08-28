@@ -217,6 +217,6 @@ app.get('/logout', (req, res) => {
 })
 
 
-app.listen(3975, () => {
-    log('server runing in port 3975')
+app.listen(8888, () => {
+    log('server runing in port 8888')
 })
