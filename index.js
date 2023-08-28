@@ -170,7 +170,7 @@ app.get('/home', logined, (req, res) => {
     pool.query(`SELECT * FROM users WHERE token_id = ?`, [req.session.user_id], (err, result) => {
         if (result) {
             res.render('home', {
-                balance: result[0].balance
+                balance: 0
             })
         }
     })
