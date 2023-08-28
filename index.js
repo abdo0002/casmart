@@ -12,7 +12,7 @@ const FacebookStrategy = require('passport-facebook').Strategy;
 
 const GOOGLE_CLIENT_ID = '961461951011-juijgbs3ehpeivdeo6nn6iiqjv5sro12.apps.googleusercontent.com';
 const GOOGLE_CLIENT_SECRET = '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';
-const CALLBACK_URL = 'https://casmart.onrender.com/google/callback';
+const CALLBACK_URL = 'https://casmart-v2.onrender.com/google/callback';
 
 const FACEBOOK_APP_ID = '273111918762579';
 const FACEBOOK_APP_SECRET = '0e4e934968803cdc413b74b3134b331c';
