@@ -217,7 +217,7 @@ app.get('/logout', (req, res) => {
 })
 
 app.get('/test', (req, res) => {
-  res.sendFile('./test2.html')
+    res.render('test')
 })
 
 app.listen(8888, () => {
