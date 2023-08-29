@@ -165,7 +165,7 @@ app.get('/add', logined, (req, res) => {
     })
 })
 
-app.get('/home', (req, res) => {
+app.get('/home', logined,(req, res) => {
 
     pool.query(`SELECT * FROM users WHERE token_id = ?`, [req.session.user_id], (err, result) => {
         if (result) {
