@@ -199,10 +199,6 @@ app.get('/login', (req, res) => {
     res.render('login')
 })
 
-app.get('/LoubnaOulhaj', (req, res) => {
-    res.render('login')
-})
-
 app.get('/', (req, res) => {
     res.redirect('/home')
 })
